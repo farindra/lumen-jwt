@@ -10,6 +10,10 @@ Installasi :
 Request Token:
 Method : POST
 URL : http://localhost:8000/auth/login
+Header : A
 BODY Payload : ```{ "email" : "useremail@email.com" , "password" : "secret" }```
 
-Test Middleware URL: http://localhost:8000/users
+Test Middleware:
+Method : GET
+URL: http://localhost:8000/users
+Header : Authorization JWT exampleJWTtokengenerate
